@@ -10,7 +10,7 @@ import zipfile
 model = load_model('./cat_Dog_model.h5')
 
 # Paths of the train.zip extraction path
-test_zip_path = '../test1.zip'
+test_zip_path = './test1.zip'
 test_extract_path = './test1/test1'
 os.makedirs(test_extract_path, exist_ok=True)
 

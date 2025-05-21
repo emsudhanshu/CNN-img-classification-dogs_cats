@@ -18,7 +18,7 @@ import seaborn as sns
 
 # extracting the zip file i.e. train.zip
 
-train_zip_path = '../train.zip' #file path of train.zip in my local system
+train_zip_path = './train.zip' #file path of train.zip in my local system
 
 #below function will extract the images
 def extract_and_fix_structure(zip_path, extract_path):
